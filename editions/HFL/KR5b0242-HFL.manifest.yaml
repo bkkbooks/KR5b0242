@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0242/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0242/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 青玄救苦寶懺
+  date: '2015-08-29 00:14:40.884035'
+  source:
+    repository: kanripo
+    path: KR5b0242
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0242_000-HFL.yaml, hash: 'sha256:1a509addaef89d1e5dab5abb2d2591a3a99ec3da3fb3f4f898dafcef003609fc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0242_000-HFL.markers.yaml, hash: 'sha256:d4e96c4ec5a98d3e25f842e4221afee3dd771b3829263b15f4b9df290563a02f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0242_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3219
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:47401d95225ef11acea1f8503bdb2e7ca9ce67432a2794215443396a674d76de
